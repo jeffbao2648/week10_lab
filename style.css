@@ -24,6 +24,8 @@ header {
 /* TODO: Add styles here to gradually fade out the notice */
 /* HINT: You'll need to use the opacity property */
 #notice.dismissed {
+  opacity: 0; 
+  transition: opactiy 1s; 
 }
 
 #case-date-update {
