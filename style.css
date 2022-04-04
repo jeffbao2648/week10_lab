@@ -25,7 +25,7 @@ header {
 /* HINT: You'll need to use the opacity property */
 #notice.dismissed {
   opacity: 0; 
-  transition: opactiy 1s; 
+  transition: opacity 1s; 
 }
 
 #case-date-update {
