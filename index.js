@@ -11,7 +11,7 @@ function init() {
 
 function loadPlotly() {
   Plotly.d3.csv(
-    "https://raw.githubusercontent.com/jcambre/PUI2020/master/nyt-college-covid.csv",
+    "https://raw.githubusercontent.com/nytimes/covid-19-data/master/colleges/colleges.csv"
     function (err, rows) {
       function unpack(rows, key) {
         return rows.map(function (row) {
