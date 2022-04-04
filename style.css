@@ -41,4 +41,5 @@ header {
 #dismiss-notice:hover {
   background-color: rgb(56, 178, 172);
   fill: #fff;
+  transition: all 0.5s;
 }
