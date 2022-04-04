@@ -41,6 +41,7 @@ function loadPlotly() {
           lat: lat,
           lon: lon,
           hoverinfo: "text",
+          text: hoverText,
           marker: {
             size: covidSize,
             line: {
